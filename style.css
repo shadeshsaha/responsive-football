@@ -4,30 +4,30 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.copa-america{
+.football{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 @keyframes change{
     from{
-        background-color: #2D25A0 ;
+        background-color: #0e049c ;
     }
     to{
-        background-color: #e9e9ec ;
+        background-color: #7474e6 ;
     }
 }
-.backgroundcolor{
+.bg-color{
     background-color: 
     #2D25A0 ;
     height: 677px;
     animation: change 2.5s ease-in-out .5s infinite alternate ;
     animation-play-state: running;
 }
-.sec1display{
+.section-one-display{
     padding-left: 500px ;
     padding-top: 100px;
 }
-.todown{
+.to-down{
     padding-top: 100px;
 }
 
@@ -47,13 +47,13 @@ body{
     
 }
 .watchicon{
-    /* margin: 10px 24px 10 24px; */
+    color: white;
     margin-left: 25px;
 }
 .watchnow{
     font-size: 16px;
     color: #FFFFFF;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 24px;
     text-decoration: none;
     
@@ -62,3 +62,58 @@ body{
     width: 556.01px;
     height: 438px;
 }
+
+/*  */
+.banner{
+    position: relative;
+    transition: transform 1.5s ease-out;
+}
+.section-one-display:hover .banner{
+    transform: translate(-80px, 30px);   
+}
+
+/* Player Section CSS Starts */
+
+/* player section  */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-row-gap: 30px;
+}
+
+.shadowbox{
+    background: #FFFFFF;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+width: 330px;
+height: 600px;
+}
+.player{
+
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-name h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 28px;
+}
+.player-text p{ 
+    font-size: 20px;
+}
+.player-details{ 
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Player Section CSS Ends */
