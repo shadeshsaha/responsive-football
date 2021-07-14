@@ -1,0 +1,64 @@
+/* Google poppins font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.copa-america{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@keyframes change{
+    from{
+        background-color: #2D25A0 ;
+    }
+    to{
+        background-color: #e9e9ec ;
+    }
+}
+.backgroundcolor{
+    background-color: 
+    #2D25A0 ;
+    height: 677px;
+    animation: change 2.5s ease-in-out .5s infinite alternate ;
+    animation-play-state: running;
+}
+.sec1display{
+    padding-left: 500px ;
+    padding-top: 100px;
+}
+.todown{
+    padding-top: 100px;
+}
+
+
+.heading{
+    font-size: 50px ;
+    color: white;
+    font-weight: 700;
+}.watch{
+    background-color: 
+    #E02C6D;
+    width: 168px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.watchicon{
+    /* margin: 10px 24px 10 24px; */
+    margin-left: 25px;
+}
+.watchnow{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+}
